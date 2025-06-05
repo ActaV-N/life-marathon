@@ -1,0 +1,27 @@
+{
+  "name": "life-marathon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve",
+    "build": "mkdir -p dist && cp -r index.html css js dist/ && cp -r *.json dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesandbox-app/static-template.git"
+  },
+  "keywords": [],
+  "author": "Ives van Hoorne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codesandbox-app/static-template/issues"
+  },
+  "homepage": "https://github.com/codesandbox-app/static-template#readme",
+  "dependencies": {
+    "safe-buffer": "^5.2.1"
+  },
+  "devDependencies": {
+    "serve": "^11.2.0"
+  }
+}
