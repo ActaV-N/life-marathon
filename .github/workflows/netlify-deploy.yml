@@ -33,5 +33,5 @@ jobs:
           production-deploy: true
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: remarkable-paprenjak-7ec950
+          NETLIFY_SITE_ID: cb296f05-fabd-44b0-8399-7f6861725ceb
         timeout-minutes: 1
